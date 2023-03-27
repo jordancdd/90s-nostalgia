@@ -59,7 +59,7 @@ img {
 .wrapper {
     max-width: 900 px;
     margin: 0 auto;
-    padding: 1.5em 0;
+    padding: 1.5em;
 
 }
 
@@ -165,8 +165,7 @@ a:focus {
 h1, .hero {
     width: 75%;
     padding: .5em .5em .5em .5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     color: white;
     text-align: center;
     font-size: 2rem;
@@ -249,7 +248,8 @@ footer {
   - Ajust alignment to be centered
   - Add padding to the top and bottom with the value of `8px` and set the left and right value to `0`*/    
      
-footer .wrapper {
+footer {
     text-align: center;
     padding: 8px, 0;
+    padding: 8px 0;
 }
