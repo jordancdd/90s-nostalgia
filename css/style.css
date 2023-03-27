@@ -162,7 +162,7 @@ a:focus {
   - Apply a text shadow with offsets and blur of 2px, and set color using `rgba(0,0,0,.8)`
   - Change background color to use `rgba(0,0,0,.25)`*/
 
-h1, .hero {
+h1 {
     width: 75%;
     padding: .5em .5em .5em .5em;
     margin: 0 auto;
